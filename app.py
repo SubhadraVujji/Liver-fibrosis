@@ -4,28 +4,7 @@ import numpy as np
 import pandas as pd
 import base64
 
-'''# Function to set the background image
-def set_background(image_file):
-    page_bg_img = f"""
-    <style>
-    .stApp {{
-        background-image: url("data:image/png;base64,{image_file}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }}
-    </style>
-    """
-    st.markdown(page_bg_img, unsafe_allow_html=True)
 
-# Convert image to base64 format
-def get_base64_image(image_path):
-    with open(image_path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
-
-# Call the function to set background
-image_path = "background.png"  # Ensure this image is in your project directory
-set_background(get_base64_image(image_path))'''
 
 # Define expected feature names
 features = ['Age', 'ALT', 'BMI', 'DM.IFG', 'FBG', 'GGT', 'TG', 'AST.PLT']
