@@ -17,7 +17,7 @@ with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 # Streamlit UI
-st.title("A Machine Learning Based Combined Approach for Liver Fibrosis Diagnosis in NAFLD Using Biomarkers and Demographics")
+st.title("A Machine Learning Based Approach for Liver Fibrosis Diagnosis in NAFLD Using Biomarkers and Demographics")
 
 st.markdown("### Enter patient details below:")
 
