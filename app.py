@@ -7,7 +7,7 @@ import base64
 
 
 # Define expected feature names
-features = ['Age', 'ALT', 'BMI', 'DM/IFG', 'FBG', 'GGT', 'TG', 'AST.PLT']
+features = ['Age', 'ALT', 'BMI', 'DM.IFG', 'FBG', 'GGT', 'TG', 'AST.PLT']
 
 # Load model and scaler
 with open("fibrosis.pkl", "rb") as f:
